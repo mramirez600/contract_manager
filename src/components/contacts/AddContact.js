@@ -83,7 +83,7 @@ class AddContact extends Component {
             <div className="card mb-3">
               <div className="card-header">
                 Add Contact{" "}
-                <i
+                {/* <i
                   onClick={this.onShowClick}
                   // Ternary for classname toggle
                   className={
@@ -92,7 +92,7 @@ class AddContact extends Component {
                       : "fas fa-minus"
                   }
                   style={{ cursor: "pointer", float: "right", color: "blue" }}
-                />
+                /> */}
               </div>
               {/* {showAddContactInfo ? ( */}
               <div className="card-body">
